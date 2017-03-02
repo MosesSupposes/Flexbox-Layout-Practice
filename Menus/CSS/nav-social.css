@@ -46,3 +46,11 @@
 .social-menu li a[href*="youtube.com"]::before { content: '\f167'; }
 
 .social-menu li a[href*="wordpress.com"]::before { content: '\f19a'; }
+
+/* flexbox stuff */
+
+.social-menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
